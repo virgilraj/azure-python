@@ -34,7 +34,7 @@ def main():
     #cur.execute('''select * from mytable ''')
     #res = cur.fetchall()
     #print(res)
-    return render_template('index.html'
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run()
