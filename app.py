@@ -17,17 +17,17 @@ mysql = MySQL()
 
 #MS SQL Server
 #connection = pypyodbc.connect('Driver={ODBC Driver 17 for SQL Server};Server=tcp:vrajdb.database.windows.net,1433;Database=vrajdb;Uid=virgil;Pwd=azure@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;')
-connection = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-                      'Server=tcp:vrajdb.database.windows.net;'
-                      'Database=vrajdb;'
-                      'Uid=virgil;'
-                      'Pwd=azure@123;'
-                      'TrustServerCertificate=no;'
-                      )
+#connection = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
+#                      'Server=tcp:vrajdb.database.windows.net;'
+#                      'Database=vrajdb;'
+#                      'Uid=virgil;'
+#                      'Pwd=azure@123;'
+#                      'TrustServerCertificate=no;'
+#                      )
 
 
 #define basic route
-@app.route("/")
+@app.route("/index.html")
 def main():
     #cur = mysql.connection.cursor()
     ##cur = connection.cursor()
